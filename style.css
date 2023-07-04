@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+main{
+    width: 100%;
+    height: 100vh;
+    background-color: #009df8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    width: 600px;
+    min-height: 500px;
+    background: #ffff;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+#item{
+    display: block;
+    padding: 10px;
+    font-size: 20px;
+    border: 5px;
+    width: 100%;
+    outline: hidden;
+    box-shadow: 0 0 5px grey;
+    font-weight: bold;
+}
+
+#To-do-box{
+    margin-top: 20px;
+    list-style: none;
+}
+
+#To-do-box li{
+    background-color: #090338;
+    color: #ffff;
+    padding: 10px;
+    position:relative;
+    border-radius: 2px;
+    padding-right: 30px;
+    text-align: justify;
+}
+
+#To-do-box li i{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
